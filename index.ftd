@@ -1,5 +1,5 @@
 -- import: meenukumari28.github.io/dancing-script-typo/custom
-
+-- import: meenukumari28.github.io/dancing-script-font/assets as dancing-script-font-assets
 
 
 -- site-doc.doc-home: dancing-script-typo package
@@ -27,7 +27,7 @@ lang: ftd
 
 \-- fastn.dependency: meenukumari28.github.io/dancing-script-typo
 
--- site-doc.header:
+-- site-doc.header: Step 1:
 
 Now import `dancing-script-typo` inside `.ftd` file as shown below:
 
@@ -37,7 +37,7 @@ lang: ftd
 \-- import: meenukumari28.github.io/dancing-script-typo
 
 
--- site-doc.header: 
+-- site-doc.header: Step 2:
 
 add `dancing-script-typo` `types` to `ds.page` `types` attribute as shown
 below:
@@ -48,7 +48,7 @@ lang: ftd
 \-- ds.page:
 types: $dancing-script-typo.types
 
--- site-doc.header: 
+-- site-doc.header: Step 3:
 
 Once you add `types: $dancing-script-typo.types` inside your `.ftd` file,
 `dancing-script-typo` will be added as `fastn` default typography to your
@@ -62,7 +62,7 @@ lang: ftd
 
 \-- fastn.dependency: meenukumari28.github.io/dancing-script-typo
 
--- site-doc.header:
+-- site-doc.header: Step 4:
 
 Once you add above dependency, then import `dancing-script-typo` inside your
 `.ftd` file:
@@ -72,7 +72,7 @@ lang: ftd
 
 \-- import: meenukumari28.github.io/dancing-script-typo
 
--- site-doc.header:
+-- site-doc.header: Step 5:
 
 Done! `dancing-script-typo` is now added. Lets define a `page` component:
 
@@ -119,7 +119,7 @@ children: $page.wrap
 \-- end: page
 
 
--- site-doc.header:
+-- site-doc.header: Step 6:
 
 In above code snippet we defined `page` component which has `types`, `title`,
 `body` and  `wrap` attributes.
@@ -187,7 +187,7 @@ color: $inherited.colors.text
 
 -- end: cb.rendered
 
--- site-doc.header:
+-- site-doc.header: Step 7:
 
 Click on download icon on above code snippet `types.ftd` file will be
 downloaded, add previously downloaded `my-ds.ftd` and `types.ftd` inside
