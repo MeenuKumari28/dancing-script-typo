@@ -1,17 +1,17 @@
--- import: <user_name>.github.io/<repo_name>
+-- import: meenukumari28.github.io/dancing-script-typo
 
 
 
--- site-doc.doc-home: <repo_name> package
-site-title: `<repo_name>`
+-- site-doc.doc-home: dancing-script-typo package
+site-title: `dancing-script-typo`
 show-tabs: false
-github-url: <user_name>.github.io/<repo_name>
-current-package: <user_name>.github.io/<repo_name>
+github-url: meenukumari28.github.io/dancing-script-typo
+current-package: meenukumari28.github.io/dancing-script-typo
 
-Below are our default fastn `inherited` font types of <repo_name>.
+Below are our default fastn `inherited` font types of dancing-script-typo.
 
 -- display-type:
-types: $<repo_name>.types
+types: $dancing-script-typo.types
 
 
 -- end: site-doc.doc-home
