@@ -1,11 +1,5 @@
 -- import: meenukumari28.github.io/dancing-script-typo/custom
 
-;; ⚠️fastn-builders::⚠️ before using this file please find and replace inter-font
-;; with font package name you have given inside this package 
-;; `meenukumari28.github.io/dancing-script-typo/FASTN.ftd file
-;; `<font-name>` replace with font you are using. 
-;; remove these comments once you are done.
-
 
 
 -- site-doc.doc-home: dancing-script-typo package
@@ -206,7 +200,7 @@ e.g. `http://127.0.0.1:8001/types` You will see the `page` component using
 Done! isn't it simple? Try this and don't forget to jump on our [Discord](https://discord.gg/bucrdvptYd)
 
 [Click here](fastn-typography/) to know more `fastn` predefined `inherited`
-types using `<font-name>-font` font-family and font-sizes.
+types using `dancing-script-font` font-family and font-sizes.
 
 -- end: site-doc.doc-home
 
